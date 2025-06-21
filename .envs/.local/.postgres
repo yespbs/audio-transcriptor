@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=audio_transcript
+POSTGRES_USER=HgvgyYwVUOAADvNchFaaiVJBLBJIGEAi
+POSTGRES_PASSWORD=GcIGpVhCshc4fPsa6LQv6ATTkfafETh6SUFK5qSFJWsI7u3yt7oEs9rCEWEryNbz

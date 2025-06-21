@@ -1,0 +1,18 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=FoYtqQrQMjxpDbkLMNwuiendlkalQfVg
+CELERY_FLOWER_PASSWORD=GadyV0WvAS2suBhb5Avp7XSZDjHe3Z5zGIdwWeUWCQZodhkbBu7hD6z2yau8Jr5A
+
+# Sentry
+# ------------------------------------------------------------------------------
+SENTRY_DSN=https://d2eb98e751f63d024a83bc21af4b0989@o4509532732456960.ingest.de.sentry.io/4509532736061520
