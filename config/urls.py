@@ -10,6 +10,11 @@ from drf_spectacular.views import SpectacularAPIView
 from drf_spectacular.views import SpectacularSwaggerView
 from rest_framework.authtoken.views import obtain_auth_token
 
+# custom imports
+from rest_framework_simplejwt.views import TokenObtainPairView
+from rest_framework_simplejwt.views import TokenRefreshView
+from rest_framework_simplejwt.views import TokenVerifyView
+
 urlpatterns = [
     path("", TemplateView.as_view(template_name="pages/home.html"), name="home"),
     path(
@@ -43,6 +48,10 @@ urlpatterns += [
         SpectacularSwaggerView.as_view(url_name="api-schema"),
         name="api-docs",
     ),
+    # JWT
+    path("api/jwt-token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
+    path("api/jwt-token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
+    path("api/jwt-token/verify/", TokenVerifyView.as_view(), name="token_verify"),
 ]
 
 if settings.DEBUG:
