@@ -15,4 +15,4 @@ CELERY_FLOWER_PASSWORD=GadyV0WvAS2suBhb5Avp7XSZDjHe3Z5zGIdwWeUWCQZodhkbBu7hD6z2y
 
 # Sentry
 # ------------------------------------------------------------------------------
-SENTRY_DSN=https://d2eb98e751f63d024a83bc21af4b0989@o4509532732456960.ingest.de.sentry.io/4509532736061520
+SENTRY_DSN=
